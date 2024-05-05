@@ -1,0 +1,18 @@
+def maths_formula(a,b,c):
+    formula=(a + b + c)**2
+    return formula 
+    
+num1 = int(input("Enter your number : "))
+num2 = int(input("Enter your number : "))
+num3 = int(input("Enter your number : "))
+result = maths_formula(a=num1,b=num2,c=num3)
+
+def maths_formula_in_detail(a,b,c):
+    formula2=a**2+b**2+c**2+(2*a*b)+(2*b*c)+(2*a*c)
+    return formula2
+    
+    
+result2=maths_formula_in_detail(a=num1,b=num2,c=num3)
+print ("It is simple formula : ", result)
+print ("It os details formula : ", result2)
+    
