@@ -1,0 +1,8 @@
+def a_program_to_see_what_percentage_a_number_is (hole_number, percentage_value):
+    formula = (percentage_value/100)*hole_number
+    return formula 
+    
+    
+your_holenumber_value=int(input("Enter your hole number value : "))
+your_percentage_value=float(input("Enter your percentage value :  "))
+print("It is your final value : ",a_program_to_see_what_percentage_a_number_is(hole_number=your_holenumber_value,percentage_value=your_percentage_value))
