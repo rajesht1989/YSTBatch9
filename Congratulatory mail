@@ -1,0 +1,6 @@
+def user(name):
+    message = name
+    print("happy birth day : mr",message)
+    
+user_name=input("what is your name : ")
+user(name=user_name)
