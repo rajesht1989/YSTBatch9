@@ -1,0 +1,6 @@
+def user(a,b):
+    var = b-a
+    return var
+num1=int(("your birth year? :"))
+num2=int(input("current year? :"))
+print("your age is",user(a=num1,b=num2))
