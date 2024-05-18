@@ -2,8 +2,8 @@ def numbers_define(a):
     if a%2==0:
         return("Even number")
     elif a<0:
-        return ("negative")
+        return ("Negative")
     else:
-        return("Add number")
+        return("Odd number")
 input_number=int(input("Enter your number : "))
 print(numbers_define(a=input_number))
