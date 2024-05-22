@@ -1,10 +1,10 @@
 def Themepark_ticket(age):
     if age>=35:
-        return ("entrence ticket:20$")
+        return ("entrence ticket:20$ ")
     elif age>=25:
-        return ("entrence ticket:15$")
+        return ("entrence ticket:15$ ")
     elif age>=18:
-        return ("entrence ticket:10$")
+        return ("entrence ticket:10$ ")
     else :
         return ("sory, below 18 not allowed ")
 age=int(input ("enter your age : "))
