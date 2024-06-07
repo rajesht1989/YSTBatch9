@@ -1,0 +1,22 @@
+try:
+    numbers = [23,665,78,1,56]
+    for i in range (0,5):
+        number = int (input("Enter your value : "))
+        if 0>number:
+            raise ValueError("value is cannot be negative")
+        if number in  numbers and (0<number<=10) :
+            print("low")
+        elif number in  numbers and (11<=number<=50):
+            print("medium")
+        elif number in  numbers and (51<=number<=100):
+            print("high")
+        elif number in numbers and (100<number):
+            print("too high")
+            break
+        else:
+            print("this number the not inside to list so you have enter a other number")
+            
+except ValueError as v:
+    print("Enter a numaricel form",v)
+except Exception as e:
+    print("something",e)
