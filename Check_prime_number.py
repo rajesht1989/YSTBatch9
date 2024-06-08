@@ -7,4 +7,5 @@ def check_prime_number(num):
             break
         if(prime):
             print ("it is prime number ")
-(check_prime_number(num=6))
+num= int(input("enter a number: "))
+(check_prime_number(num))
